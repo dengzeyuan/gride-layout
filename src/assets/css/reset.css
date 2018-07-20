@@ -1,0 +1,177 @@
+@charset "utf-8";
+html {
+    color: #666;
+    background: #fff;
+}
+body, div, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, iframe, input, textarea, select, label, article, aside, footer, header, menu, nav, section, time, audio, video {
+    margin: 0;
+    padding: 0;
+}
+em, i, s {
+    font-style: normal
+}
+article, aside, footer, header, hgroup, nav, section, audio, canvas, video {
+    display: block;
+}
+audio, canvas, video {
+    display: inline-block
+}
+.w {
+    width: 100%;
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    font-size: 100%
+}
+body, option,div,p,h1,h2,h3,h4,h5 {
+    font: 12px/1.5 "'Microsoft YaHei", "微软雅黑", Arial, Helvetica, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    word-wrap: break-word;
+    word-break: break-all;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+* {
+    outline: 0 none;
+}
+textarea {
+    resize: none;
+}
+iframe, img {
+    border: 0;
+}
+iframe {
+    display: block;
+}
+ul, ol li {
+    list-style: outside none;
+}
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+input::-ms-clear, input::-ms-reveal {
+    display: none;
+}
+.clear:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+.clear {
+    zoom: 1
+}
+/* 清楚浮动*/
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/*检查页面的标签是否闭合  */
+.clearfix {
+    zoom: 1;
+}
+.com-width {
+    margin: 0 auto;
+}
+.fl {
+    _display: inline;
+    float: left;
+}
+.fr {
+    _display: inline;
+    float: right;
+}
+.show {
+    display: inline-block;
+}
+.hide {
+    display: none;
+}
+.text-ar {
+    text-align: right;
+}
+.text-al {
+    text-align: left;
+}
+*, *:after, *:before {
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box; /*兼容移动端主流浏览器*/
+
+    -webkit-tap-highlight-color: transparent;/*设置点击高亮颜色是透明*/
+}
+/* 解决兼容而加的样式 */
+a, img {
+    -webkit-touch-callout: none; /*禁止长按链接与图片弹出菜单*/
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    -webkit-user-select: none; /*禁止选中文本*/
+    user-select: none;
+}
+button, input, optgroup, select, textarea {
+    -webkit-appearance:none; /*去掉webkit默认的表单样式
+}
+a, button, input, optgroup, select, textarea {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*去掉a、input和button点击时的蓝色外边框和灰色半透明背景*/
+}
+.el-date-editor .el-range-separator{
+    padding: 0 2px;
+    line-height: 32px;
+    width: 11% ! important;
+    color: #7cbfe9;
+}
+.el-date-editor .el-range__icon {
+    font-size: 14px;
+    margin-left: -5px;
+    color: #7cbfe9;
+    float: left;
+    line-height: 32px;
+}
+.el-date-editor .el-range-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: 0;
+    padding: 0;
+    width: 38%;
+    color: #606266;
+    border-bottom: 2px solid #7cbfe9;
+    font-size: 10px;
+}
+.el-date-range-picker {
+    width: 524px;
+    height: 300px;
+}
+.el-button.is-plain:focus, .el-button.is-plain {
+    background: #409EFF;
+    border-color: #409EFF;
+    color: rgb(255, 255, 255);
+    padding: 3% 3%;
+}
+.el-radio+.el-radio{
+    margin-left: 0px;
+}
+.el-radio-group {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+    font-size: 0;
+    margin-left: 42px;
+}
